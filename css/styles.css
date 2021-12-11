@@ -491,6 +491,7 @@ header .studio {
 
 .footer .flex-box {
   display: flex;
+  align-items: baseline;
 }
 
 footer .studio {

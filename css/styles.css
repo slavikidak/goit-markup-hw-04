@@ -155,6 +155,7 @@ header .studio {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  max-width: 1600px;
 
   text-align: center;
 }
@@ -295,7 +296,6 @@ header .studio {
 }
 
 .team .list-item {
-  padding-bottom: 30px;
   background-color: #fff;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -303,8 +303,8 @@ header .studio {
 }
 
 .team-member {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team .name {
@@ -321,6 +321,7 @@ header .studio {
 .social-links {
   display: flex;
   justify-content: center;
+  margin-top: 16px;
 }
 
 .team .icon-box:not(:last-child) {
@@ -365,13 +366,20 @@ header .studio {
 
 .partners .client-icon {
   display: flex;
+  align-items: center;
+  justify-content: center;
+
   width: 170px;
   height: 92px;
-  padding: 16px 32px;
 
   border: 1px solid #afb1b8;
   border-radius: 4px;
   fill: #afb1b8;
+}
+
+.client-icon svg {
+  width: 106px;
+  height: 60px;
 }
 
 .client-icon:hover,
@@ -522,7 +530,7 @@ footer .studio {
   margin-left: 70px;
 }
 
-.footer .icon-box {
+.footer .social-links {
   margin-top: 20px;
 }
 
